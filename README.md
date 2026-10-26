@@ -2,6 +2,10 @@
 
 A ghost lives in your shell. Every few commands, a local open-weight model (Gemma 3 via Ollama) whispers an eerie one-liner about what you just ran. Fully offline.
 
+![demo](demo.gif)
+
+*Animated replay: the whispers are real `gemma3:4b` outputs; typing and timing are staged.*
+
 ## Setup
 ```bash
 ollama pull gemma3:4b
